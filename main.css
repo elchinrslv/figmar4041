@@ -1,0 +1,80 @@
+.conteiner1 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blok {
+    background-color: black;
+    width: 400px;
+    display: flex;
+    height: 250px;
+    border-color: black solid 1px;
+    align-items: center;
+}
+.conteiner2 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.japon{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    height: 250px;
+    border: 3px solid grey;
+    align-items: center;
+    justify-content: center;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+}
+.conteiner3 {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.statics{
+    background-color: white;
+    width: 400px;
+    display: flex;
+    height: 300px;
+    border: 3px solid grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+}
+.salam1{
+    width: 90px;
+    background-color: aqua;
+    height: 250px;
+}
+.salam2{
+    width: 90px;
+    background-color: aqua;
+    height: 174px;
+}
+.salam3{
+    width: 90px;
+    background-color: aqua;
+    height: 92px;
+}
+.salam4{
+    width: 90px;
+    background-color: aqua;
+    height: 221px;
+}
