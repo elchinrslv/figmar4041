@@ -1,80 +1,234 @@
-.conteiner1 {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin-left: 124px;
+    margin-right: 154px;
+    width: 1400px;
+    height: 1046px;
 
 }
-
-.blok {
-    background-color: black;
-    width: 400px;
-    display: flex;
-    height: 250px;
-    border-color: black solid 1px;
-    align-items: center;
-}
-.conteiner2 {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+h2{
+    font-family: "Roboto Slab";
+    width: 365px;
+    height: 93px;
+    margin-top: 91px;   
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
 
 }
-.japon{
-    background-color: white;
-    width: 400px;
-    display: flex;
-    height: 250px;
-    border: 3px solid grey;
-    align-items: center;
-    justify-content: center;
+.div-p{
+    width: 662px;
+    height: 364px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-right: 190px;
 }
-.circle{
-    width: 120px;
-    height: 120px;
-    background-color: red;
-    border-radius: 50%;
+.right-1{
+    width: 314px;
+    height: 315px;
+    margin-top: 226px;
 }
-.conteiner3 {
+.wrapper-1{
     display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+.wrapper-2{
+    display: flex;
+}
+.left-2{
+    width: 232px;
+    height: 203px;
+    margin-top: 94px;
+}
+.right-2{
+    display: flex;
+    margin-top: 164px;
+    margin-left: 132px;
+}
+.bottom{
+    width: 150px;
+    height: 39px;
+    margin-right: 95px;
+}
 
+@media  (max-width:1440px) {
+    *{
+       margin: 0;
+       padding: 0; 
+    }
+    body{
+        box-sizing: border-box;
+    }
+    .container{
+        margin-left: 72px;
+        margin-right: 87px;
+        width: 830px;
+        height: 633px;
+    }
+    h2{
+        width: 211.4px;
+height: 53.86px;
+font-family: "Roboto Slab";
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 56px;
+    }
+    .div-p{
+        width: 383.41px;
+height: 216.61px;
+font-family: "Roboto";
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+margin-right: 110px;
+    }
+    .right-1{
+        width: 181.86px;
+height: 182.44px;
+margin-top: 135px;
+margin-right: 86px;
+    }
+    .img1{
+        object-fit: cover;
+        width: 181.86px;
+        height: 182.44px;
+    }
+    .left-2{
+        display: none;
+    }
+    .img2{
+        display: none;
+    }
+    .right-2{
+        margin-left: 0px;
+        margin-top: 70px;
+        
+    }
+    .bottom{
+        width: 86.88px;
+height: 22.59px;
+        margin-right: 56px;
+    }
+    .bottom-p{
+        font-family: "Roboto";
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .bottom-h{
+        font-family: "Roboto";
+font-size: 15px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+ 
 }
-.statics{
-    background-color: white;
-    width: 400px;
-    display: flex;
-    height: 300px;
-    border: 3px solid grey;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: flex-end;
-    justify-content: center;
-    justify-content: space-between;
-}
-.salam1{
-    width: 90px;
-    background-color: aqua;
-    height: 250px;
-}
-.salam2{
-    width: 90px;
-    background-color: aqua;
-    height: 174px;
-}
-.salam3{
-    width: 90px;
-    background-color: aqua;
-    height: 92px;
-}
-.salam4{
-    width: 90px;
-    background-color: aqua;
-    height: 221px;
+@media (max-width: 830px){
+    *{
+        margin: 0;
+        padding: 0; 
+     }
+     body{
+         box-sizing: border-box;
+     }
+     .container{
+         margin-left: 36px;
+         margin-right: 30px;
+         width: 375px;
+         height: 633px;
+     }
+     h2{
+         width: 170px;
+ height: 43.86px;
+ font-family: "Roboto Slab";
+ font-size: 26px;
+ font-weight: 700;
+ line-height: 26.36px;
+ letter-spacing: 0em;
+ text-align: left;
+ margin-top: 56px;
+     }
+     .div-p{
+         width: 308.41px;
+ height: 174.61px;
+ font-family: "Roboto";
+ font-size: 12px;
+ font-weight: 400;
+ line-height: 18px;
+ letter-spacing: 0em;
+ text-align: left;
+ margin-right: 36px;
+     }
+     .right-1{
+         width: 170.86px;
+ height: 160.44px;
+ margin-top: 56px;
+ margin-right: 101px;
+     }
+     .img1{
+         object-fit: cover;
+         width: 170.86px;
+         height: 160.44px;
+     }
+     .left-2{
+         display: none;
+     }
+     .img2{
+         display: none;
+     }
+     .right-2{
+         margin-left: 0px;
+         margin-top: 70px;
+         
+     }
+     .bottom{
+         width: 69.9px;
+ height: 18.17px;
+         margin-right: 56px;
+     }
+     .bottom-p{
+         font-family: "Roboto";
+         font-size: 10px;
+         font-weight: 400;
+         line-height: 13px;
+         letter-spacing: 0em;
+         text-align: left;
+         
+     }
+     .bottom-h{
+         font-family: "Roboto";
+ font-size: 12px;
+ font-weight: 700;
+ line-height: 15.6px;
+ letter-spacing: 0em;
+ text-align: left;
+ 
+     }
 }
